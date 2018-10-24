@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Form</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1 class="brand"><span>Contact</span> Form</h1>
-        <div class="wrapper">
+        <div class="wrapper animated bounceInRight">
             <div class="company-info">
                 <h3>Contact Form</h3>
                 <ul>
@@ -22,7 +23,7 @@
             </div>
             <div class="contact">
                 <h3>Email Us</h3>
-                <form>
+                <form id="contactForm">
                     <p>
                         <label>Name</label>
                         <input type="text" name="name" class="validate" required>
@@ -37,7 +38,7 @@
                     </p>
                     <p>
                         <label>Phone Number</label>
-                        <input type="text" name="phone"class="validate" required>
+                        <input type="text" name="phone" class="validate" required>
                     </p>
                     <p class="full">
                         <label>Message</label>
