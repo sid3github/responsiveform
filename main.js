@@ -28,6 +28,16 @@ function submitForm(e){
 
     //Save message.
     saveMessage(name,company,email,phone,message);
+
+    // show alert
+    document.querySelector('.alert').style.display = 'block';   
+
+    //hide alert after 3 sec.
+    setTimeout(function(){
+        document.querySelector('.alert').style.display = 'none';
+    },3000);
+
+    console.log(saveMessage);
 }
 
 // Function to get form values.
